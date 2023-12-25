@@ -10,7 +10,7 @@ public class TaskDAO {
     public TaskDAO(){
         String url = "jdbc:postgresql:TaskManagement";
         String username = "postgres";
-        String password = "mina2002";
+        String password = "*";
 
         try{
             this.connect = DriverManager.getConnection(url,username,password);
